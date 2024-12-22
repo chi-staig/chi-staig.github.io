@@ -45,8 +45,11 @@
         </a>
       </div>
     </header>
-  
-    <div class="flex min-h-screen">
+
+
+    <div class="flex justify-center">
+
+      <div class="flex min-h-screen max-w-[72rem]">
         <!-- Sticky Left Navigation -->
         <nav class="w-80 bg-white sticky top-0 h-screen p-16">
           <h2 class="text-lg font-bold mb-4">Navigation:</h2>
@@ -56,8 +59,8 @@
             <li><a href="#submission-guide" class="text-violet-600 hover:underline">Submission Guide</a></li>
             <li><a href="#schedule" class="text-violet-600 hover:underline">Schedule</a></li>
             <li><a href="#speakers" class="text-violet-600 hover:underline">Speakers and Panelists</a></li>
-            <li><a href="#organizers" class="text-violet-600 hover:underline">Workshop Organizers</a></li>
-            <li><a href="#faq" class="text-violet-600 hover:underline">FAQ</a></li>
+            <li><a href="#organizers" class="text-violet-600 hover:underline">Organizers</a></li>
+            <!-- <li><a href="#faq" class="text-violet-600 hover:underline">FAQ</a></li> -->
           </ul>
         </nav>
     
@@ -72,21 +75,21 @@
           
             <div class="text-gray-700 space-y-3">
                 <p>We stand at a pivotal time in technology development and its impacts on society. Rapid advancements in and adoption of frontier AI systems have amplified the need for AI governance measures across the public sector, academia, and industry.</p>
-
+  
                 <p>To this end, we welcome your participation in the <strong>first CHI workshop on Sociotechnical AI Governance</strong>, where we rally the interdisciplinary expertise of the HCI community to tackle AI governance through a sociotechnical lens.</p>
-
+  
                 <p>Join us at the PACIFICO in Yokohama, Japan or online.</p>
             </div>
             
           </section>
-
+  
           <hr>
-
+  
           <section id="cfp" class="my-8">
             <h1 class="text-5xl font-bold mb-8">Call for Participation</h1>
             <div class="text-gray-700 space-y-3">
                 <p>As AI systems become increasingly powerful and pervasive, there is an urgent need to design effective AI governance measures around both technical and social factors. Sociotechnical AI governance recognizes that AI's real-world impacts are always a product of both technical capabilities and broader social factors including stakeholders, organization structures, power dynamics, and cultural norms. To explore this important emerging topic, we invite authors from across academia, industry, the legal domain, and the public sector to submit papers to the Sociotechnical AI Governance workshop at CHI 2025 (STAIG @ CHI '25).</p>
-
+  
                 <p>This workshop aims to build community and collaboratively draft a research agenda for sociotechnical AI governance. In particular, we outline four governance challenges for authors to consider: <strong>anticipating</strong> high-priority risks to address with governance; <strong>identifying</strong> where to focus governance efforts and who should participate in and lead those efforts; <strong>designing</strong> appropriate interventions and tools to implement governance actions in practice; and <strong>evaluating</strong> the effectiveness of these interventions and tools in context.</p>
                 
                 <p>Topics authors may choose to tackle include, but are not limited to:</p>
@@ -96,27 +99,109 @@
                     <li>Case studies of governance in various sociotechnical scenarios.</li>
                     <li>Evaluation methods for governance measures in practice.</li>
                 </ul>
-
+  
             </div>
           </section>
-
+  
           <hr>
-
+  
           <section id="submission-guide" class="my-8">
             <h1 class="text-5xl font-bold mb-8">Submission Guide</h1>
             <div class="text-gray-700 space-y-3">
-                <p>Submitted papers should be up to <strong>four [4] pages in the ACM single-column format</strong>, excluding references. Please submit papers to [submission link coming soon!]. Submissions will go through a peer review review process based on quality. Each paper will receive two high-quality reviews from experts. We will advertise the accepted papers on our workshop website. At least one author must attend the workshop to present the paper at the workshop.</p>
+                <p><strong>Format.</strong> Submitted papers should be up to <strong>four [4] pages in the ACM single-column format</strong>, excluding references and appendix materials. You can use ACM's <a href="https://www.overleaf.com/gallery/tagged/acm-official#.WOuOk2e1taQ">LaTeX</a> or <a href="https://authors.acm.org/proceedings/production-information/preparing-your-article-with-microsoft-word">Word</a> templates. If you are using LaTeX, please use <code>\documentclass[manuscript,review]{acmart}</code> in your preamble.</p>
 
+                <p><strong>Reviewing process.</strong> Submissions will go through a double-blind peer review process based on quality. Each paper will receive two high-quality reviews. We will advertise the accepted papers on our workshop website. We encourage submitted authors to also review for the workshop.</p>
+
+                <p><strong>Attendance and presentation.</strong> Accepted papers are non-archival and will be presented as posters in the workshop. At least one author must register for and attend the workshop to present their paper. </p>
+
+                <p><strong>Submission link.</strong> Coming soon!</p>
+  
             </div>
           </section>
-
+  
           <hr>
     
           <section id="schedule" class="my-8">
             <h1 class="text-5xl font-bold mb-8">Schedule</h1>
             <div class="text-gray-700 space-y-3">
-                <p>Schedule coming soon!</p>
 
+                <table class="w-full table-auto border-collapse border border-gray-200">
+                  <!-- Table Head -->
+                  <thead>
+                    <tr class="bg-gray-100">
+                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Event</th>
+                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Who</th>
+                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Duration</th>
+                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Time</th>
+                    </tr>
+                  </thead>
+                  <!-- Table Body -->
+                  <tbody>
+                    <tr>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Opening remarks</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop organizers</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">15mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">09:00 – 09:15 JST</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Opening panel + Q&A</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Invited panelists</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">09:15 – 10:00 JST</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Morning poster session</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">60mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">10:15 – 11:15 JST</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Morning ideation session</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees + organizers</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">11:15 – 12:00 JST</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Lunch break</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Everyone</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">90mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">12:00 – 13:30 JST</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Keynote speaker  + Q&A</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Invited speaker</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">13:30 – 14:15 JST</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Afternoon poster session</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">60mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">14:30 – 15:30 JST</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Afternoon ideation session</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees + organizers</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">15:30 – 16:15 JST</td>
+                    </tr>
+                    <tr>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Cross-cutting discussion</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees + organizers</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">30mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">16:15 - 16:45 JST</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Closing remarks</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop organizers</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">15mins</td>
+                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">16:45 – 17:00 JST</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <p>Schedule is tentative and subject to change.</p>
+  
             </div>
           </section>
     
@@ -125,13 +210,13 @@
           
     
           <section id="speakers" class="my-8">
-            <h1 class="text-5xl font-bold mb-8">Speakers</h1>
+            <h1 class="text-5xl font-bold mb-8">Speakers and Panelists</h1>
             <div class="text-gray-700 space-y-3">
-                <p>Speakers coming soon!</p>
-
+                <p>Speakers and panelists coming soon!</p>
+  
             </div>
           </section>
-
+  
           <hr>
     
           <section id="organizers" class="my-8">
@@ -142,91 +227,95 @@
                 <img src="./profile/kevinfeng.png" 
                     alt="Kevin Feng" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Kevin Feng</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://kjfeng.me" class="hover:text-violet-600 hover:underline">Kevin Feng</a></h3>
                 <p class="text-sm text-gray-500 text-center">University of Washington</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="./profile/rockpang.png" 
                     alt="Rock Yuren Pang" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Rock Yuren Pang</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://homes.cs.washington.edu/~ypang2/" class="hover:text-violet-600 hover:underline">Rock Yuren Pang</a></h3>
                 <p class="text-sm text-gray-500 text-center">University of Washington</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://tskuo.github.io/assets/TzuShengKuo_photo.png" 
                     alt="Tzu-Sheng Kuo" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Tzu-Sheng Kuo</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://tskuo.github.io/" class="hover:text-violet-600 hover:underline">Tzu-Sheng Kuo</a></h3>
                 <p class="text-sm text-gray-500 text-center">Carnegie Mellon University</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://cdt.org/wp-content/uploads/2024/11/DSC02910_ed-2-1x1-2500x-640x640.jpg" 
                     alt="Amy Winecoff" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Amy Winecoff</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://cdt.org/staff/amy-winecoff/" class="hover:text-violet-600 hover:underline">Amy Winecoff</a></h3>
                 <p class="text-sm text-gray-500 text-center">Center for Democracy & Technology</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://emtseng.me/assets/profile-18.jpg" 
                     alt="Emily Tseng" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Emily Tseng</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://emtseng.me/" class="hover:text-violet-600 hover:underline">Emily Tseng</a></h3>
                 <p class="text-sm text-gray-500 text-center">Microsoft Research</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://davidwidder.me/images/portrait-newererer-crop.jpg" 
                     alt="David Gray Widder" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">David Gray Widder</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://davidwidder.me/" class="hover:text-violet-600 hover:underline">David Gray Widder</a></h3>
                 <p class="text-sm text-gray-500 text-center">Cornell Tech</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://harinisuresh.com/headshot.jpg" 
                     alt="Harini Suresh" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Harini Suresh</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://harinisuresh.com/" class="hover:text-violet-600 hover:underline">Harini Suresh</a></h3>
                 <p class="text-sm text-gray-500 text-center">Brown University</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://s3-us-west-2.amazonaws.com/www-cse-public/images/portraits/reinecke_sm.jpg" 
                     alt="Katharina Reinecke" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Katharina Reinecke</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://homes.cs.washington.edu/~reinecke/" class="hover:text-violet-600 hover:underline">Katharina Reinecke</a></h3>
                 <p class="text-sm text-gray-500 text-center">University of Washington</p>
               </div>
-
+  
               <div class="bg-white shadow-md rounded-lg p-6">
                 <img src="https://homes.cs.washington.edu/~axz/img/amy2_xs.png" 
                     alt="Amy X. Zhang" 
                     class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
-                <h3 class="text-lg font-bold text-center">Amy X. Zhang</h3>
+                <h3 class="text-lg font-bold text-center"><a href="https://homes.cs.washington.edu/~axz/" class="hover:text-violet-600 hover:underline">Amy X. Zhang</a></h3>
                 <p class="text-sm text-gray-500 text-center">University of Washington</p>
               </div>
             </div>
           </section>
-
-          <hr>
+  
+          <!-- <hr> -->
     
-          <section id="faq" class="my-8">
+          <!-- <section id="faq" class="my-8">
             <h1 class="text-5xl font-bold mb-8">FAQs</h1>
             <div class="text-gray-700 space-y-3">
                 <p>FAQs coming soon!</p>
-
+  
             </div>
-          </section>
+          </section> -->
         </main>
       </div>
+
+    </div>
+  
+    
   
     <!-- Footer -->
     <footer class="bg-gray-800 py-6 text-center">
-      <p class="text-gray-400">STAIG @ CHI 2025. Created with 🏞️ in Seattle. Logo designed by Rock Yuren Pang and Chu Li. Cover image: <a href="https://www.pacifico.co.jp/english" class="text-purple-600 hover:underline">PACIFICO Yokohama</a>.</p>
+      <p class="text-gray-400">Created with 🏞️ in Seattle. Logo designed by Rock Yuren Pang and Chu Li. Cover image: <a href="https://www.pacifico.co.jp/english" class="text-purple-600 hover:underline">PACIFICO Yokohama</a>.</p>
     </footer>
   </body>
 </html>
