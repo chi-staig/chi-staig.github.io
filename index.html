@@ -22,6 +22,13 @@
     html {
       scroll-behavior: smooth;
     }
+
+    .line-clamp-3 {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
   </style>
 </head>
 <body class="bg-white text-black">
@@ -35,10 +42,10 @@
         <p class="mt-4 text-xl">CHI 2025 Workshop @ Yokohama, Japan</p>
         <p class="mt-2 text-xl">April 27, 2025</p>
         <p class="mt-2 text-xl">PACIFICO Yokohama & Hybrid</p>
-        <p class="mt-2 text-xl text-red-500 font-bold line-through">Submission deadline: March 3, 2025</p>
-        <p class="mt-2 text-xl text-white font-bold">Decision release date: April 1, 2025</p>
-        <a href="https://openreview.net/group?id=ACM.org/CHI/2025/Workshop/STAIG" target="_blank" class="mt-6 px-6 py-3 bg-violet-600 hover:bg-violet-700 rounded-lg text-white text-lg">
-          Submission Portal
+        <!-- <p class="mt-2 text-xl text-red-500 font-bold line-through">Submission deadline: March 3, 2025</p>
+        <p class="mt-2 text-xl text-white font-bold">Decision release date: April 1, 2025</p> -->
+        <a href="./papers.html" target="_blank" class="mt-6 px-6 py-3 bg-violet-600 hover:bg-violet-700 rounded-lg text-white text-lg">
+          See Accepted Papers
         </a>
         <a href="#welcome" class="absolute bottom-24 animate-bounce">
         <svg class="mt-6 w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -116,7 +123,7 @@
 
                 <p><strong>Attendance and presentation.</strong> Accepted papers are non-archival and will be presented as posters in the workshop. At least one author must register for and attend the workshop to present their paper. </p>
 
-                <p><strong>Submission link (OpenReview).</strong> <a href="https://openreview.net/group?id=ACM.org/CHI/2025/Workshop/STAIG" target="_blank" class="text-violet-600 underline">Click here!</a></p>
+                <p><strong>Submissions are now closed.</strong></p>
   
             </div>
           </section>
@@ -127,82 +134,83 @@
             <h1 class="text-5xl font-bold mb-8">Schedule</h1>
             <div class="text-gray-700 space-y-3">
 
-                <table class="w-full table-auto border-collapse border border-gray-200">
-                  <!-- Table Head -->
-                  <thead>
-                    <tr class="bg-gray-100">
-                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Event</th>
-                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Who</th>
-                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Duration</th>
-                      <th class="border border-gray-300 px-4 py-2 text-left font-semibold text-sm text-gray-700">Time</th>
-                    </tr>
-                  </thead>
-                  <!-- Table Body -->
-                  <tbody>
-                    <tr>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Opening remarks</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop organizers</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">15mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">09:00 – 09:15 JST</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Opening panel + Q&A</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Invited panelists</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">09:15 – 10:00 JST</td>
-                    </tr>
-                    <tr>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Morning poster session</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">60mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">10:15 – 11:15 JST</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Morning ideation session</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees + organizers</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">11:15 – 12:00 JST</td>
-                    </tr>
-                    <tr>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Lunch break</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Everyone</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">90mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">12:00 – 13:30 JST</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Keynote speaker  + Q&A</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Invited speaker</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">13:30 – 14:15 JST</td>
-                    </tr>
-                    <tr>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Afternoon poster session</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">60mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">14:30 – 15:30 JST</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Afternoon ideation session</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees + organizers</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">45mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">15:30 – 16:15 JST</td>
-                    </tr>
-                    <tr>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Cross-cutting discussion</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop attendees + organizers</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">30mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">16:15 - 16:45 JST</td>
-                    </tr>
-                    <tr class="bg-gray-50">
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Closing remarks</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">Workshop organizers</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">15mins</td>
-                      <td class="border border-gray-300 px-4 py-2 text-sm text-gray-600">16:45 – 17:00 JST</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <table class="w-full table-auto border-collapse border border-gray-200">
+                <!-- Table Head -->
+                <thead>
+                  <tr class="bg-gray-100">
+                    <th class="border border-gray-300 px-4 py-2 text-left font-semibold  text-gray-700">Event</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left font-semibold  text-gray-700">Who</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left font-semibold  text-gray-700">Duration</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left font-semibold  text-gray-700">Time (JST)</th>
+                  </tr>
+                </thead>
+                <!-- Table Body -->
+                <tbody>
+                  <tr>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Opening remarks</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop organizers</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">15mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">09:00 – 09:15 </td>
+                  </tr>
+                  <tr class="bg-gray-50">
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Opening panel + Q&A</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Lama Ahmad (OpenAI), Jessica Bergs (UK AISI), Zana Buçina (Harvard), Yuri Nakao (Fujitsu), Lior Zalmanson (Tel Aviv U. / Cornell). Moderated by Kevin Feng (UW).</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">45mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">09:15 – 10:00 </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Morning poster session</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop attendees</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">60mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">10:15 – 11:15 </td>
+                  </tr>
+                  <tr class="bg-gray-50">
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Morning ideation session</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop attendees + organizers</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">45mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">11:15 – 12:00 </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Lunch break</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Everyone</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">90mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">12:00 – 13:30 </td>
+                  </tr>
+                 
+                  <tr>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Afternoon poster session</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop attendees</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">60mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">13:30 – 14:30 </td>
+                  </tr>
+                  <tr class="bg-gray-50">
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Afternoon ideation session</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop attendees + organizers</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">45mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">14:30 – 15:15 </td>
+                  </tr>
+                  <tr>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Cross-cutting discussion</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop attendees + organizers</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">30mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">15:30 - 16:00 </td>
+                  </tr>
+                  <tr class="bg-gray-50">
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Keynote speaker + Q&A</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Roel Dobbe (TU Delft)</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">45mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">16:00 – 16:45 </td>
+                  </tr>
+                  <tr class="bg-gray-50">
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Closing remarks</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">Workshop organizers</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">15mins</td>
+                    <td class="border border-gray-300 px-4 py-2  text-gray-600">16:45 – 17:00 </td>
+                  </tr>
+                </tbody>
+              </table>
 
-                <p>Schedule is tentative and subject to change.</p>
+                <!-- <p>Schedule is tentative and subject to change.</p> -->
   
             </div>
           </section>
@@ -214,7 +222,77 @@
           <section id="speakers" class="my-8">
             <h1 class="text-5xl font-bold mb-8">Speakers and Panelists</h1>
             <div class="text-gray-700 space-y-3">
-                <p>Speakers and panelists coming soon!</p>
+              <h2 class="text-3xl font-bold mb-4">Keynote: Algorithmic Harm And Safety Are Sociotechnical, But Are Our Interventions?</h2>
+              <div class="w-full flex justify-center mb-4">
+                <div class="bg-white shadow-md rounded-lg p-6 w-64">
+                  <img src="https://filelist.tudelft.nl/_processed_/d/6/csm_r6p1q_b771d391c6.jpg" 
+                      alt="Roel Dobbe" 
+                      class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                  <h3 class="text-lg font-bold text-center"><a href="https://www.tudelft.nl/staff/r.i.j.dobbe/" class="hover:text-violet-600 hover:underline">Roel Dobbe</a></h3>
+                  <p class="text-sm text-gray-500 text-center">TU Delft</p>
+                </div>
+
+                
+              </div>
+
+              <div>
+                <div><b>Abstract: </b></div>
+                <div id="abstract-text" class="line-clamp-3">In this talk, I will share insights from the Sociotechnical AI Systems Lab at Delft University of Technology. In recent years, the risks emerging from deploying AI in high stakes or sensitive settings has motivated a flurry of measures and interventions to ensure safe and responsible use. However, most efforts have broadly fallen in either techno-centric, ethics-centric, or policy-centric buckets, and as such are often siloed and lack comprehensiveness. Algorithmic harms however can only be understood and prevented or addressed as dynamical or emergent phenomena for which we have to bring into one view technological tools and infrastructures, human actors at varying organizational levels, and the institutional factors be they more formal rules or informal norms such as hidden in culture or political behavior. Given the growing spectrum of algorithmic harms experienced across sectors and spheres of life and society, we urgently need to work to broadly shared conceptual lenses and associated methodologies for what we understand an ‘AI system’ and its harmful outcomes to be, and what aspects and factors need to be in view for responsible actors to understand these and own their responsibilities. To make this steep challenge concrete and offer viable strategies, I lean on lessons from the field of system safety which offers comprehensive concepts and methods for the anticipation, prevention and mitigation of harms in software-based systems. I reflect on the current state of the ‘Technical AI Safety’ field to inform a discussion on how sociotechnically oriented fields may work together to ensure research, policy and regulatory efforts for AI safety can become more comprehensive and effective for those in need of protection.</div>
+
+                <button id="abstract-toggle" class="text-violet-600 hover:text-violet-800 font-medium">Read more</button>
+              </div>
+
+              <div>
+                <div><b>Bio: </b></div>
+                <div id="bio-text" class="line-clamp-3">Roel Dobbe is an Assistant Professor in Technology, Policy & Management at Delft University of Technology focusing on Sociotechnical AI Systems. He received a MSc in Systems & Control from Delft (2010) and a PhD in Electrical Engineering and Computer Sciences from UC Berkeley (2018), where he received the Demetri Angelakos Memorial Achievement Award. He was an inaugural postdoc at the AI Now Institute and New York University. His research addresses the integration and implications of algorithmic technologies in societal infrastructure and democratic institutions, focusing on issues related to safety, sustainability and justice. His projects are situated in various domains, including energy systems, public administration, and healthcare. Roel’s system-theoretic lens enables addressing the sociotechnical and political nature of algorithmic and artificial intelligence systems across analysis, engineering design and governance, with an aim to empower domain experts and affected communities. His results have informed various policy initiatives, including environmental assessments in the European AI Act as well as the development of the algorithm watchdog in The Netherlands.</div>
+                <button id="bio-toggle" class="text-violet-600 hover:text-violet-800 font-medium">Read more</button>
+              </div>
+              
+
+              <h2 class="text-3xl font-bold pt-6">Panel: What is Sociotechnical About AI Governance?</h2>
+
+              <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white shadow-md rounded-lg p-6">
+                  <img src="./profile/lamaahmad.jpeg" 
+                      alt="Lama Ahmad" 
+                      class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                  <h3 class="text-lg font-bold text-center"><a href="https://www.lama-ahmad.com/" class="hover:text-violet-600 hover:underline">Lama Ahmad</a></h3>
+                  <p class="text-sm text-gray-500 text-center">OpenAI</p>
+                </div>
+    
+                <div class="bg-white shadow-md rounded-lg p-6">
+                  <img src="./profile/jessicabergs.png" 
+                      alt="Jessica Bergs" 
+                      class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                  <h3 class="text-lg font-bold text-center"><a href="https://www.linkedin.com/in/jbergs" class="hover:text-violet-600 hover:underline">Jessica Bergs</a></h3>
+                  <p class="text-sm text-gray-500 text-center">UK AISI</p>
+                </div>
+    
+                <div class="bg-white shadow-md rounded-lg p-6">
+                  <img src="./profile/zanabucina.JPG" 
+                      alt="Zana Buçina" 
+                      class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                  <h3 class="text-lg font-bold text-center"><a href="https://zbucinca.github.io/" class="hover:text-violet-600 hover:underline">Zana Buçina</a></h3>
+                  <p class="text-sm text-gray-500 text-center">Harvard University</p>
+                </div>
+    
+                <div class="bg-white shadow-md rounded-lg p-6">
+                  <img src="./profile/yurinakao.jpg" 
+                      alt="Yuri Nakao" 
+                      class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                  <h3 class="text-lg font-bold text-center"><a href="https://www.yurinakao.com/" class="hover:text-violet-600 hover:underline">Yuri Nakao</a></h3>
+                  <p class="text-sm text-gray-500 text-center">Fujitsu Research</p>
+                </div>
+    
+                <div class="bg-white shadow-md rounded-lg p-6">
+                  <img src="./profile/liorzalmanson.jpg" 
+                      alt="Lior Zalmanson" 
+                      class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">
+                  <h3 class="text-lg font-bold text-center"><a href="https://en-coller.tau.ac.il/profile/zalmanso" class="hover:text-violet-600 hover:underline">Lior Zalmanson</a></h3>
+                  <p class="text-sm text-gray-500 text-center">Tel Aviv University / Cornell</p>
+                </div>
+                
+              </div>
   
             </div>
           </section>
@@ -319,5 +397,34 @@
     <footer class="bg-gray-800 py-6 text-center">
       <p class="text-gray-400">Created with 🏞️ in Seattle. Logo designed by Rock Yuren Pang and Chu Li. Cover image: <a href="https://www.pacifico.co.jp/english" class="text-purple-600 hover:underline">PACIFICO Yokohama</a>.</p>
     </footer>
+
+
+    <script>
+      document.getElementById('abstract-toggle').addEventListener('click', function() {
+        const text = document.getElementById('abstract-text');
+        const btn = document.getElementById('abstract-toggle');
+        
+        if (text.classList.contains('line-clamp-3')) {
+          text.classList.remove('line-clamp-3');
+          btn.textContent = 'Read less';
+        } else {
+          text.classList.add('line-clamp-3');
+          btn.textContent = 'Read more';
+        }
+      });
+      
+      document.getElementById('bio-toggle').addEventListener('click', function() {
+        const text = document.getElementById('bio-text');
+        const btn = document.getElementById('bio-toggle');
+        
+        if (text.classList.contains('line-clamp-3')) {
+          text.classList.remove('line-clamp-3');
+          btn.textContent = 'Read less';
+        } else {
+          text.classList.add('line-clamp-3');
+          btn.textContent = 'Read more';
+        }
+      });
+    </script>
   </body>
 </html>
